@@ -1,5 +1,6 @@
 import { Typography } from '@material-ui/core';
 import './App.css';
+import StringCard from './Components/StringCard';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
        <label>Enter something: <input className='string-input' type='text' ></input></label>
        <button className='submit-btn' >Submit</button>
      </div>
+     <StringCard />
     </div>
   );
 }
