@@ -56,3 +56,12 @@ body{
 .submit-btn:focus{
     outline: none;
 }
+
+
+@media only screen and (max-width: 700px){
+    .string-input{
+        display: block;
+        margin: 10px auto;
+        width: 50%;
+    }
+}
