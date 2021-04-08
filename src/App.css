@@ -1,0 +1,58 @@
+
+body{
+    background: url('https://cdn.pixabay.com/photo/2014/03/22/17/03/the-background-292729_1280.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.App{
+    text-align: center;
+    padding: 5%;
+    
+}
+
+.App a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.App a:hover{
+    color: red;
+}
+
+.input-section label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.string-input{
+    width: 25%;
+    margin: 15px;
+    height: 35px;
+    transition: all 0.1s ease-in-out;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+.string-input:focus{
+    outline: none;
+}
+
+
+.submit-btn{
+    height: 35px;
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.submit-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.submit-btn:focus{
+    outline: none;
+}
